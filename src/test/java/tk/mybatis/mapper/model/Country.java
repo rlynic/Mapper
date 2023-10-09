@@ -29,8 +29,8 @@ import tk.mybatis.mapper.annotation.ColumnType;
 import tk.mybatis.mapper.entity.IDynamicTableName;
 import tk.mybatis.mapper.typehandler.StringType2Handler;
 
-import javax.persistence.Column;
-import javax.persistence.Transient;
+import jakarta.persistence.Column;
+import jakarta.persistence.Transient;
 import java.io.Serializable;
 
 /**

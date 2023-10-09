@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2018 abel533@gmail.com
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tk.mybatis</groupId>
+  <artifactId>mapper-all-dependencies</artifactId>
+  <version>4.2.4-SNAPSHOT</version>
+  <name>dependencies</name>
+  <description>Mybatis 通用 Mapper Jar 集成</description>
+  <url>https://mybatis.io/mapper-all/mapper-all-dependencies</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/abel533/mapper/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>abel533</name>
+      <email>abel533@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:abel533/mapper.git/mapper-all/mapper-all-dependencies</connection>
+    <developerConnection>scm:git@github.com:abel533/mapper.git/mapper-all/mapper-all-dependencies</developerConnection>
+    <url>git@github.com:abel533/mapper.git/mapper-all/mapper-all-dependencies</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>nexus-bingo</id>
+      <name>releases</name>
+      <url>https://repo.bingosoft.net/repository/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-bingo</id>
+      <name>snapshots</name>
+      <url>https://repo.bingosoft.net/repository/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <properties>
+    <java.version>17</java.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <hsqldb.version>2.5.2</hsqldb.version>
+    <jpa.version>2.2</jpa.version>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <revision>4.2.4-SNAPSHOT</revision>
+    <maven.compiler.target>17</maven.compiler.target>
+    <slf4j.version>1.7.26</slf4j.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>4.13.2</junit.version>
+    <logback.version>1.2.11</logback.version>
+    <argLine>-Dfile.encoding=UTF-8</argLine>
+    <mybatis.version>3.5.11</mybatis.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-core</artifactId>
+      <version>4.2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-base</artifactId>
+      <version>4.2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-extra</artifactId>
+      <version>4.2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-spring</artifactId>
+      <version>4.2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-weekend</artifactId>
+      <version>4.2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -30,7 +30,7 @@ import org.apache.ibatis.mapping.ResultMapping;
 import org.apache.ibatis.session.Configuration;
 import tk.mybatis.mapper.util.StringUtil;
 
-import javax.persistence.Table;
+import jakarta.persistence.Table;
 import java.util.*;
 
 /**

@@ -24,7 +24,7 @@
 
 package tk.mybatis.mapper.model;
 
-import javax.persistence.Id;
+import jakarta.persistence.Id;
 
 /**
  * Description: Country

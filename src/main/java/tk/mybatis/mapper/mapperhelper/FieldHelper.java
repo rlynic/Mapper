@@ -26,7 +26,7 @@ package tk.mybatis.mapper.mapperhelper;
 
 import tk.mybatis.mapper.entity.EntityField;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;

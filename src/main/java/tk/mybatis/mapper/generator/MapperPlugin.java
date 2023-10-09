@@ -146,7 +146,7 @@ public class MapperPlugin extends PluginAdapter {
      */
     private void processEntityClass(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
         //引入JPA注解
-        topLevelClass.addImportedType("javax.persistence.*");
+        topLevelClass.addImportedType("jakarta.persistence.*");
         String tableName = introspectedTable.getFullyQualifiedTableNameAtRuntime();
         //如果包含空格，或者需要分隔符，需要完善
         if (StringUtility.stringContainsSpace(tableName)) {
